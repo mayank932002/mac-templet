@@ -1260,7 +1260,7 @@ nav {
 	gap: 30px;
 	width: 40%;
 }
-.footer-right{
+.footer-right {
 	display: flex;
 	gap: 100px;
 	width: 60%;
@@ -1292,7 +1292,6 @@ nav {
 	line-height: 24px;
 	color: #666;
 	padding-bottom: 30px;
-
 }
 
 .social-icons {
@@ -1312,7 +1311,6 @@ nav {
 	color: var(--font-black-color);
 }
 
-
 .footer-column h3 {
 	font-family: "roboto", sans-serif;
 	font-size: 18px;
@@ -1323,7 +1321,7 @@ nav {
 }
 
 .footer-links li {
-font-family: "roboto", sans-serif;
+	font-family: "roboto", sans-serif;
 	font-size: 14px;
 	color: #666;
 	padding-bottom: 23px;
