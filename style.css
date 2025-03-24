@@ -438,17 +438,14 @@ nav {
 
 .viewcase-btn {
 	font-family: "manrope", sans-serif;
-	text-decoration: underline;
-	font-weight: 500;
+		font-weight: 500;
 	color: var(--font-black-color);
 	transition: all 0.3s ease;
 }
-.viewcase-btn:active {
-	text-decoration: underline;
-}
+
 .viewcase-btn:hover {
 	text-decoration: underline;
-	opacity: 0.8;
+	scale: 1.1;
 }
 .trusted-by {
 	display: flex;
@@ -1554,7 +1551,10 @@ nav {
 	transition: all 0.3s ease;
 	line-height: 140%;
 }
-
+.filter-button:hover {
+	background-color: #99cf63;
+	color: #000;
+}
 .filter-button.active {
 	background-color: #99cf63;
 	color: #000;
@@ -1852,6 +1852,11 @@ nav {
 	cursor: pointer;
 	border-radius: 70px;
 	border: none;
+	transition: all 0.3s ease;
+}
+.prev:hover {
+	background-color: var(--font-black-color);
+	color: white;
 }
 
 /* Responsive Styles */
@@ -2082,15 +2087,22 @@ nav {
 	font-weight: 600;
 	font-size: 16px;
 	color: var(--font-black-color);
-	text-decoration: underline;
 	border: none;
 	outline: none;
 	background-color: transparent;
 	line-height: 180%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.secondary:hover {
+	scale: 1.1;
+	text-decoration: underline;
+
 }
 
 .faq-button:hover {
-	background-color: #f5f5f5;
+	background-color: var(--font-black-color);
+	color: var(--font-white-color);
 }
 
 .accordion {
@@ -2459,6 +2471,11 @@ nav {
 .arrow-btn1:hover {
 	transform: translateX(3px);
 }
+.arrow-btn1:hover {
+	background: black;
+	color: var(--font-white-color);
+	border: none;
+}
 
 /* Responsive Styles */
 /* 1200px Breakpoint */
@@ -2675,13 +2692,16 @@ nav {
 	font-weight: 700;
 	transition: all 0.3s ease;
 	font-size: 16px;
-	font-family: "PlusJakartaSans", sans-serif;
+	font-family: "Manrope", sans-serif;
 	white-space: nowrap;
 	flex-shrink: 0;
+	border: 2px solid black;
 }
 
 .sec7btn:hover {
-	background-color: #f0f0f0;
+	background-color: var(--font-black-color);
+	color: var(--font-white-color);
+	border: 2px solid white;
 	transform: translateY(-2px);
 }
 
@@ -2871,9 +2891,9 @@ nav {
 }
 
 .social-icon:hover {
-	background-color: #8eda55;
-	border-color: #8eda55;
-	color: white;
+	background-color: var(--font-black-color);
+	border-color: var(--font-white-color);
+	color: var(--font-white-color);
 }
 
 .footer-column h3 {
